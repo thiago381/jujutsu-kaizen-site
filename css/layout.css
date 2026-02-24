@@ -1,0 +1,84 @@
+#corpo{
+    background: #0b0b0d;/*define a cor do fundo*/
+    min-height: 100vh; /*define a altura minina*/
+}
+
+
+#topbar{
+    height: 72px;/*define a altura*/
+    width: 100%;/*define a larguna*/
+    background: #0f0f12;/*define a cor*/
+    display: flex;/*ativa o alinhamento*/
+    align-items: center;/*akinha na vertical*/
+    border-bottom: 1px solid #1f1f26;/*cria ima linha separadora*/
+    padding: 0 12px;/*cria espaço interno*/
+    gap: 12px;/*criar espaços entre filhos*/
+}
+
+#topbarEsq{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#topbarMeio{
+    flex: 1;/*atalho*/
+    display: flex;
+    justify-content: center;/*alinha os itens na horizontal*/
+}
+
+#topbarDir{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+
+#conteudo{
+    padding: 22px;
+    color: #fff;/*define a cor do texto*/
+}
+
+#destaque{
+    display: grid;/*transforma um elemento em um sistema de layout em grade*/
+    grid-template-columns: 30% 70%;/*define o tamanho das colunas*/
+    gap: 20px;
+    margin-top: 18px;/*cria um espaço externo acima do elemeto*/
+}
+
+#destaqueEsq, #destaqueDir{
+    background: #ededf5;
+    border: 1px solid #1f1f26;/*cria uma borda em volta do elememto*/
+    border-radius: 14px;/*arredonda as bordas criadas*/
+    padding: 14px;
+}
+#divPersonagens{
+    margin-top: 30px;
+    
+}
+.historia {
+    display: flex;
+    justify-content: flex-start; /* pro texto ficar na esquerda*/
+    padding: 40px 0;
+}
+
+.infoscontainer {
+    width: 55%; 
+    max-width: 800px; /*define o maximo de ate onde pode crescer*/
+    margin-left: 40px; /*empurra o elemento para a esquerda*/
+}
+.infos-container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.infos-texto {
+    width: 60%;
+}
+
+.infos-lado {
+    width: 40%;
+}
+
+
