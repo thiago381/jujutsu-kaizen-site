@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Galeria • Jujutsu Kaisen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+
+</head>
+
+<body>
+
+    <div id="corpo">
+
+        <div id="cabecalho">
+            <div id="topbar">
+
+                <div id="topbarEsq">
+
+                    <button id="btnHamburger">☰</button>
+
+                    <nav id="menuLateral" class="menuLateral">
+
+                        <a class="menuLink" href="../index.html">Início</a>
+                        <a class="menuLink" href="./personagens.html">Personagens</a>
+                        <a class="menuLink" href="./episodios.html">Episódios</a>
+                        <a class="menuLink" href="./manga.html">Mangá</a>
+                        <a class="menuLink" href="./galeria.html">Galeria</a>
+                        <a class="menuLink" href="./novidades.html">Novidades</a>
+                        <a class="menuLink" href="./comunidade.html">Comunidade</a>
+
+                    </nav>
+
+                    <a href="../index.html">
+                        <img id="logoTopo" src="../img/favicon.png" alt="Logo Jujutsu">
+                    </a>
+
+                </div>
+
+                <div id="topbarMeio">
+                    <input id="inputPesquisa" type="text" placeholder="Pesquisar...">
+                </div>
+
+                <div id="topbarDir">
+
+                    <a class="linkTopo" href="./personagens.html">Personagens</a>
+                    <a class="linkTopo" href="./episodios.html">Episódios</a>
+                    <button id="btnEntrar">Entrar</button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div id="conteudo">
+
+            <section class="pagina">
+
+                <h1 class="tituloPagina">Galeria</h1>
+                <p class="subTituloPagina">Wallpapers, cenas e artes.</p>
+
+                <div class="galeriaGrid">
+
+                    <img class="galeriaImg" src="../img/banner1.jpg" alt="Imagem 1">
+                    <img class="galeriaImg" src="../img/banner2.jpg" alt="Imagem 2">
+                    <img class="galeriaImg" src="../img/banner3.jpg" alt="Imagem 3">
+                    <img class="galeriaImg" src="../img/banner1.jpg" alt="Imagem 4">
+                    <img class="galeriaImg" src="../img/banner2.jpg" alt="Imagem 5">
+                    <img class="galeriaImg" src="../img/banner3.jpg" alt="Imagem 6">
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </div>
+
+    <div id="modalGaleria" class="modalGaleria">
+        <button id="btnFecharModal" class="modalFechar">✕</button>
+        <img id="imgModal" class="modalImg" src="" alt="Imagem ampliada">
+    </div>
+
+    <footer class="footer">
+
+        <div class="footer__container">
+
+            <div class="footer__brand">
+
+                <img class="footer__logo" src="../img/favicon.png" alt="Logo Jujutsu">
+
+                <p class="footer__text">
+                    Fanpage do Jujutsu Kaisen • Projeto de estudo em HTML/CSS
+                </p>
+
+            </div>
+
+            <nav class="footer__nav">
+
+                <a class="footer__link" href="../index.html">Início</a>
+                <a class="footer__link" href="./personagens.html">Personagens</a>
+                <a class="footer__link" href="./episodios.html">Episódios</a>
+                <a class="footer__link" href="./manga.html">Mangá</a>
+                <a class="footer__link" href="./galeria.html">Galeria</a>
+
+            </nav>
+
+            <div class="footer__social">
+
+                <a class="footer__icon" href="#">IG</a>
+                <a class="footer__icon" href="#">GH</a>
+                <a class="footer__icon" href="#">YT</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer__bottom">
+
+            <p class="footer__copy">© <span id="anoFooter"></span> thiago381</p>
+
+        </div>
+
+    </footer>
+
+    <script>
+        document.getElementById("anoFooter").textContent = new Date().getFullYear();
+    </script>
+
+    <script src="../js/menu.js"></script>
+    <script src="../js/galeria.js"></script>
+
+</body>
+
+</html>
