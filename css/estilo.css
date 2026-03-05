@@ -204,13 +204,15 @@
 }
 
 .cardPersonagem {
-    display: block;
-    background: #121218;
+    display: flex;
+    background: #0707e2;
     border: 1px solid #1f1f26;
     border-radius: 14px;
     overflow: hidden;
     text-decoration: none;
     color: #fff;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .imgPersonagem {
