@@ -15,7 +15,7 @@
     border-radius: 10px;
 }
 
-/* CORRIGIDO: o id no HTML é inputPesquisa */
+
 #inputPesquisa {
     width: 420px;
     height: 40px;
@@ -236,6 +236,7 @@
     margin-bottom: 4px;
 
 }
+
 .infoPersonagem p {
     font-size: 15px;
     opacity: 0.85;
@@ -324,6 +325,37 @@
     border: 1px solid #1f1f26;
 }
 
+#episodios {
+    width: 90%;
+    margin: auto;
+}
+
+.listaEpisodios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.episodio {
+    background: #e2e2e7;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.episodio img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.infoEp {
+    padding: 10px;
+}
+
+.infoEp h3 {
+    margin-bottom: 5px;
+}
+
 @media (max-width: 720px) {
     .epCard {
         grid-template-columns: 1fr;
@@ -333,6 +365,7 @@
         height: 180px;
     }
 }
+
 
 /* ===== MANGA ===== */
 .mangaGrid {
