@@ -1,5 +1,5 @@
 #corpo {
-    background: #0b0b0d;
+    background: #0d0c0b;
     /*define a cor do fundo*/
     min-height: 100vh;
     /*define a altura minina*/
@@ -62,15 +62,6 @@
     /*cria um espaço externo acima do elemeto*/
 }
 
-#destaqueEsq,
-#destaqueDir {
-    background: #ededf5;
-    border: 1px solid #1f1f26;
-    /*cria uma borda em volta do elememto*/
-    border-radius: 14px;
-    /*arredonda as bordas criadas*/
-    padding: 14px;
-}
 
 #divPersonagens {
     margin-top: 30px;
@@ -206,49 +197,45 @@
     }
 }
 
-.bannerAnime {
+/*pag*/
+
+
+
+
+
+
+
+
+.barr {
+
     width: 100%;
-    height: 500px;
-    
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0)), url(../img/temp01.jpg);
-    background-size: cover;
-    background-position: center;
-    
+    /*usa 100% da tela*/
+    height: 40px;
+    padding: 0 14px;
+    border-radius: 12px;
+    border: none;
+    background: #a171f3;
     display: flex;
     align-items: center;
+    justify-content: center;
+
+
 
 }
 
-.infoAnime h1 {
-    color: white;
-    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
-}
-
-.infoAnime p {
-    text-shadow: 2px, 2px, 8px rgba(0, 0, 0, 0.8);
-}
-
-.infoAnime {
-    max-width: 500px;
-    width: 400px;
-    margin-left: 60px;
-    color: white;
-}
-
-.btnPlay {
-    padding: 12px 25px;
-    background: red;
+.ep {
+    padding: 10px 14px;
+    border-radius: 12px;
+    background-color: #c4a2fd;
+    color: #ffffff;
+    cursor: pointer;
+    gap: 10px;
     border: none;
-    border-radius: 8px;
+
 }
 
-.episodios {
-    display: flex;
-    gap: 20px;
-    padding: 40px;
-}
-
-.cardEp img {
-    width: 220px;
-    border-radius: 10px;
+.ep:hover {
+    /*hover significa quando o mouse estiver encima*/
+    background: #4b2cff;
+    transform: scale(1.05);
 }
