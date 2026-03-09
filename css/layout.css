@@ -75,12 +75,14 @@
     padding: 40px 0;
 }
 
-.infoscontainer {
+.infoscontainer1 {
     width: 55%;
     max-width: 800px;
     /*define o maximo de ate onde pode crescer*/
-    margin-left: 40px;
+    margin-left: 10px;
     /*empurra o elemento para a esquerda*/
+    align-items: center;
+    display: flex;
 }
 
 .infos-container {

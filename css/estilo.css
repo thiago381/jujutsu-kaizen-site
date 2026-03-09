@@ -38,7 +38,7 @@
 
 
 #btnEntrar {
-    
+
     height: 40px;
     padding: 0 14px;
     border-radius: 12px;
@@ -58,6 +58,7 @@
     background: #4b2cff;
     transform: scale(1.05);
 }
+
 #barraDir {
 
     background: #121218;
@@ -72,7 +73,6 @@
     display: flex;
     gap: 12px;
     overflow-x: auto;
-    overflow: hidden;
     padding-bottom: 8px;
 }
 
@@ -102,8 +102,7 @@
 
 }
 
-#corpo,
-#destaqueEsq {
+#corpo {
     background-color: #121218;
 }
 
@@ -120,13 +119,6 @@
 
 }
 
-.destaqueEsq {
-    width: 100%;
-    height: 200px;
-    border-radius: 12px;
-    position: relative;
-    overflow: hidden;
-}
 
 .card-destaque {
     background: #11131a;
@@ -156,14 +148,40 @@
 }
 
 #destaqueEsq {
-
-    background: #1f1f26;
+    width: 90%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    background: #121218;
     border: 1px solid #1f1f26;
-    border-radius: 14px;
+    border-radius: 12px;
     padding: 14px;
 }
 
+.imgtrailer {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 20px;
+}
 
+.info {
+    background: #1a1a22;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.infosesq {
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.infosdir {
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
+}
 
 
 
@@ -435,10 +453,7 @@ h2 {
     margin-top: 20px;
 }
 
-.iframeytb {
-    width: 100%;
-    height: 500;
-}
+
 
 /*===FIM TEMPORADAS===*/
 /*===RESPONSIVIDADE TABLET*/
