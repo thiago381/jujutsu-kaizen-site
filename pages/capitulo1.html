@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mangá • Jujutsu Kaisen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+
+</head>
+
+<body>
+
+    <div id="corpo">
+
+        <div id="cabecalho">
+            <div id="topbar">
+
+                <div id="topbarEsq">
+
+                    <button id="btnHamburger">☰</button>
+
+                    <nav id="menuLateral" class="menuLateral">
+
+                        <a class="menuLink" href="../index.html">Início</a>
+                        <a class="menuLink" href="./personagens.html">Personagens</a>
+                        <a class="menuLink" href="./episodios.html">temporadas</a>
+                        <a class="menuLink" href="./manga.html">Mangá</a>
+                        
+
+                    </nav>
+
+                    <a href="../index.html">
+                        <img id="logoTopo" src="../img/favicon.png" alt="Logo Jujutsu">
+                    </a>
+
+                </div>
+
+                <div id="topbarMeio">
+                    <input id="inputPesquisa" type="text" placeholder="Pesquisar...">
+                </div>
+
+                <div id="topbarDir">
+
+                    <a class="linkTopo" href="./personagens.html">Personagens</a>
+                    <a class="linkTopo" href="./episodios.html">temporadas</a>
+                    
+
+                </div>
+
+            </div>
+        </div>
+        <section class="bannermanga"></section>
+        <h1>manga - capítulo 1</h1>
+        <section class="manga1">
+            <img src="../img/mangacap1ep1.jpg" alt="pag1">
+            <img src="../img/mangaep1p2.png" alt="pag2">
+            <img src="../img/mangaep1p3.png" alt="pag1">
+            <img src="../img/mangaep1p4.png" alt="pag1">
+            <img src="../img/mangaep1p5.png" alt="pag1">
+            <img src="../img/mangaep1p6.png" alt="pag1">
+            <img src="../img/mangaep1p7.png" alt="pag1">
+            <img src="../img/mangaep1p8.png" alt="pag1">
+            <img src="../img/mangaep1p9.png" alt="pag1">
+            <img src="../img/mangaep1p10.png" alt="pag1">
+        </section>
+
+        <footer class="footer">
+
+            <div class="footer__container">
+
+                <div class="footer__brand">
+
+                    <img class="footer__logo" src="../img/favicon.png" alt="Logo Jujutsu">
+
+                    <p class="footer__text">
+                        Fanpage do Jujutsu Kaisen • Projeto de estudo em HTML/CSS
+                    </p>
+
+                </div>
+
+                <nav class="footer__nav">
+
+                    <a class="footer__link" href="../index.html">Início</a>
+                    <a class="footer__link" href="./personagens.html">Personagens</a>
+                    <a class="footer__link" href="./episodios.html">temporadas</a>
+                    <a class="footer__link" href="./manga.html">Mangá</a>
+
+                </nav>
+
+
+            </div>
+
+            <div class="footer__bottom">
+
+                <p class="footer__copy">© <span id="anoFooter"></span> thiago381</p>
+
+            </div>
+
+        </footer>
+
+        <script>
+            document.getElementById("anoFooter").textContent = new Date().getFullYear();
+        </script>
+
+        <script src="../js/menu.js"></script>
+
+</body>
+
+</html>

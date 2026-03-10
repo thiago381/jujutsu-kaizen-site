@@ -60,24 +60,31 @@
 }
 
 #barraDir {
-
+    width: 100%;
+    max-width: 100%;
     background: #121218;
     border: 1px solid #1f1f26;
     border-radius: 14px;
     padding: 14px;
+    overflow: hidden;
 }
 
 .carousel {
+    border-radius: 12px;
+    background-color:  #1f1f26;;
     align-items: center;
     height: 100%;
     display: flex;
     gap: 12px;
     overflow-x: auto;
     padding-bottom: 8px;
+    
+
 }
 
 .card {
-    min-width: 220px;
+    flex-shrink: 0;
+    min-width: 180px;
     height: 200px;
     border-radius: 12px;
     background: #c2bcbc;
@@ -87,14 +94,17 @@
     justify-content: center;
     color: #fff;
     scroll-snap-align: start;
+    margin-left: 5px;
+
 }
 
 .cardImg {
     width: 100%;
-    height: 100%;
+    height: 200px;
     object-fit: cover;
     border-radius: 12px;
-    background-color: #d6d6d6;
+
+    
 }
 
 .grid2 {
@@ -298,6 +308,13 @@
 
 }
 
+.perfilTopo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
 /*===FIM PERSONAGENS===*/
 
 
@@ -456,4 +473,113 @@ h2 {
 
 
 /*===FIM TEMPORADAS===*/
-/*===RESPONSIVIDADE TABLET*/
+/*===manga===*/
+.bannermanga {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0)), url(../img/bannermanga.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.barrtitulomanga {
+    margin-left: 50%;
+}
+
+
+.ler {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 14px;
+    border-radius: 8px;
+    user-select: none;
+}
+
+.cardler-manga {
+    width: 180px;
+    height: 200px;
+    background: #0f0f12;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.cardler-manga img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+}
+
+.grid-epmanga {
+    height: 230px;
+    width: 60%;
+    display: flex;
+    gap: 20px;
+    background-color: #0f0f12;
+    padding: 5px;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.grid-epmangatds {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 220px;
+    background-color: #0f0f12;
+    padding: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 12px;
+
+}
+
+.manga1 {
+    max-width: 800px;
+    margin: auto;
+}
+
+.manga1 img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+h1 {
+    align-items: center;
+    color: white;
+}
+
+.perfiltopo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.perfilimg {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.perfiltoptext {
+    display: flex;
+    flex-direction: column;
+}
