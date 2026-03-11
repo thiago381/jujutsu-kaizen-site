@@ -514,8 +514,11 @@ h2 {
     color: #ffffff;
     position: relative;
     cursor: pointer;
+    
 }
-
+.cardler-manga,a,p{
+    text-decoration: none;
+}
 
 
 .cardler-manga img {
