@@ -58,13 +58,16 @@
     background: #4b2cff;
     transform: scale(1.05);
 }
+#topbarDir{
+    margin-right: 4%;
+}
 
-#barraDir {
+#barradir {
     width: 100%;
-    max-width: 100%;
-    background: #121218;
+    max-width: 94%;
+    background: #1f1f26;
     border: 1px solid #1f1f26;
-    border-radius: 14px;
+    border-radius: 24px;
     padding: 14px;
     overflow: hidden;
 }
@@ -78,9 +81,9 @@
     gap: 12px;
     overflow-x: auto;
     padding-bottom: 8px;
-    
-
+    width: 100%;
 }
+
 
 .card {
     flex-shrink: 0;
@@ -95,16 +98,8 @@
     color: #fff;
     scroll-snap-align: start;
     margin-left: 5px;
+    padding: 0%;
 
-}
-
-.cardImg {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 12px;
-
-    
 }
 
 .grid2 {
@@ -116,8 +111,10 @@
     background-color: #121218;
 }
 
-.infos {
-    width: 100%;
+.info {
+    border-radius: 12px;
+   
+   
 }
 
 .iframeytb {
@@ -175,6 +172,7 @@
 }
 
 .info {
+    margin-top: 10px;
     background: #1a1a22;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -195,7 +193,6 @@
 
 
 
-
 /*===FIM INDEX*/
 
 /* MENU */
@@ -207,6 +204,10 @@
 #topbar {
     position: relative;
     z-index: 10;
+}
+.topbarDir,a, .linkTopo{
+    
+    padding-left: 5px;
 }
 
 .menuLateral {
@@ -267,6 +268,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
+
 
 .cardPersonagem {
     display: flex;
@@ -582,4 +584,19 @@ h1 {
 .perfiltoptext {
     display: flex;
     flex-direction: column;
+}
+.hrecentes, .htodos{
+    margin-left: 2%;
+}
+.cardler-manga ,a{
+    text-decoration: none;
+    height: 100%;
+    color: #ffffff;
+}
+.cardler-manga a:hover {
+    color: #c084fc;
+}
+.footer__link:hover{
+    text-decoration: none;
+    
 }
