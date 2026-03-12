@@ -588,7 +588,6 @@ h1 {
     display: flex;
     flex-direction: column;
 }
-<<<<<<< HEAD
 .hrecentes, .htodos{
     margin-left: 2%;
 }
@@ -604,5 +603,3 @@ h1 {
     text-decoration: none;
     
 }
-=======
->>>>>>> e52429e4bac5a7e9b51bf7aa2ab35fc663aabf46
