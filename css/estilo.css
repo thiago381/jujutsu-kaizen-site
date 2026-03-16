@@ -11,6 +11,7 @@
     cursor: pointer;
     /*deixa o botao clicavel*/
 }
+
 .menuLateral {
     position: absolute;
     top: 52px;
@@ -24,15 +25,18 @@
     flex-direction: column;
     z-index: 9999;
 }
+
 .menuLateral.is-open {
     display: flex;
     background-color: #121218;
 }
+
 #logoTopo {
     height: 42px;
     width: auto;
     border-radius: 10px;
 }
+
 /*topbarMeio*/
 #inputPesquisa {
     width: 420px;
@@ -45,11 +49,13 @@
     outline: none;
     /*tira aborda azul*/
 }
+
 /*topbarDir*/
-.topbarDir{
+.topbarDir {
     margin-right: 4%;
     margin-left: auto;
 }
+
 .linkTopo {
     color: #cfcfe6;
     text-decoration: none;
@@ -57,10 +63,14 @@
     font-size: 14px;
     /*define o tamanho da letra*/
 }
-.topbarDir,a, .linkTopo{
-    
+
+.topbarDir,
+a,
+.linkTopo {
+
     padding-left: 5px;
 }
+
 #btnEntrar {
 
     height: 40px;
@@ -77,21 +87,27 @@
     text-decoration: none;
     font-size: 14px;
 }
+
 #btntEntra:hover {
     background: #4b2cff;
     transform: scale(1.05);
 }
+
 /*fim topbar*/
 
 /*###################################################*/
 
 /*COMEÇO INDEX*/
 .destaque {
-    display: grid; /*transforma um elemento em um sistema de layout em grade*/
-    grid-template-columns: 30% 70%; /*define o tamanho das colunas*/
+    display: grid;
+    /*transforma um elemento em um sistema de layout em grade*/
+    grid-template-columns: 30% 70%;
+    /*define o tamanho das colunas*/
     gap: 20px;
-    margin-top: 10px; /*cria um espaço externo acima do elemeto*/
+    margin-top: 10px;
+    /*cria um espaço externo acima do elemeto*/
 }
+
 .destaqueEsq {
     width: 90%;
     height: auto;
@@ -102,11 +118,13 @@
     border-radius: 12px;
     padding: 14px;
 }
+
 .imgtrailer {
     width: 100%;
     border-radius: 12px;
     margin-top: 20px;
 }
+
 .play {
     position: absolute;
     top: 50%;
@@ -119,6 +137,7 @@
     border-radius: 50%;
     user-select: none;
 }
+
 .card {
     flex-shrink: 0;
     min-width: 180px;
@@ -135,148 +154,56 @@
     padding: 0%;
 
 }
+
+.card:hover .cardImg {
+    transform: scale(1.06);
+    filter: brightness(.85);
+}
+
+.card:hover .cardTitulo {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
 .cardImg {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform .35s ease, filter .35s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .35s ease, filter .35s ease;
 }
+
 .cardTitulo {
-  position: absolute;
-  left: 14px;
-  bottom: 14px;
-  color: #fff;
-  font-weight: 700;
-  font-size: 18px;
-  letter-spacing: .5px;
-  opacity: 0;
-  transform: translateY(10px);
-  transition: opacity .35s ease, transform .35s ease;
+    position: absolute;
+    left: 14px;
+    bottom: 14px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: .5px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity .35s ease, transform .35s ease;
 }
-.infosesq,.infosdir {
+
+.infosesq,
+.infosdir {
     align-items: center;
     padding: 20px;
     border-radius: 12px;
 }
-.infoesq, .infodir ,p{
-color: white;
+
+.infoesq,
+.infodir,
+p {
+    color: white;
 }
+
 /*FIM INDEX*/
 
 /*#####################################################*/
 
 /* ===== COMEÇO PERSONAGENS ===== */
-.gridPersonagens {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-}
-.cardPersonagem {
-    display: flex;
-    background: #1f1f26;
-    border: 1px solid #1f1f26;
-    border-radius: 14px;
-    overflow: hidden;
-    text-decoration: none;
-    color: #fff;
-    flex-wrap: wrap;
-    gap: 0px;
-}
-.imgPersonagem {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    display: block;
-    border-radius: 12px;
-}
-.infoPersonagem {
-    padding: 5px;
-    text-align: center;
-    width: 100%;
-}
-.infoPersonagem h3 {
-    font-size: 20px;
-    margin-bottom: 4px;
-}
-.infoPersonagem p {
-    font-size: 15px;
-    opacity: 0.85;
-}
-.perfilTopo {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    display: block;
-}
-/*===FIM PERSONAGENS===*/
-
-/*######################################################*/
-
-
-
-
-card-destaque {
-    background: #11131a;
-    padding: 20px;
-    border-radius: 16px;
-    border: 1px solid #1f1f26;
-    text-align: center;
-
-}
-
-
-
-.card-destaque img {
-    width: 100%;
-    border-radius: 12px;
-    margin-bottom: 15px;
-}
-
-.card-destaque h4 {
-    margin-bottom: 10px;
-    color: #c084fc;
-}
-
-.card-destaque p {
-    font-size: 14px;
-    opacity: 0.8;
-}
-
-#destaqueEsq {
-    width: 90%;
-    height: auto;
-    position: relative;
-    overflow: hidden;
-    background: #121218;
-    border: 1px solid #1f1f26;
-    border-radius: 12px;
-    padding: 14px;
-}
-
-
-
-.perfilRodape{
-    align-items: center;
-    background-color: #1f1f26;
-    margin: auto;
-}
-
-.menuLateral.is-open {
-    display: flex;
-}
-
-.menuLink {
-    color: #ffffff;
-    text-decoration: none;
-    padding: 12px 20px;
-    font-size: 15px;
-    font-weight: 500;
-    transition: background 0.2s ease;
-}
-
-.menuLink:hover {
-    background: #1f1f26;
-}
 
 .pagina {
     max-width: 1100px;
@@ -294,115 +221,72 @@ card-destaque {
     margin-bottom: 18px;
 }
 
+.gridPersonagens {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.cardPersonagem {
+    display: flex;
+    background: #1f1f26;
+    border: 1px solid #1f1f26;
+    border-radius: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+
+.imgPersonagem {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+}
+
+.infoPersonagem {
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.infoPersonagem h3 {
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.infoPersonagem p {
+    font-size: 15px;
+    opacity: 0.85;
+}
+
+.perfilTopo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.perfilBox,
+ul,
+li {
+    color: white;
+}
+
+/*===FIM PERSONAGENS===*/
+
+/*######################################################*/
 
 /*===COMEÇO TEMPORADAS===*/
-.bannerAnimet {
-    width: 100%;
-    height: 200px;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0)), url(../img/temp01.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-
-
-}
-
-.bannerAnimet2 {
-    width: 100%;
-    height: 200px;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0)), url(../img/bannertemp2.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-
-
-}
-
-.bannerAnimet33 {
-    width: 100%;
-    height: 200px;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0)), url(../img/banner333.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-
-
-}
-
-.barrtitulo {
-    background: #0f0f12;
-    user-select: none;
-}
-
-.episodio,
-h2 {
-    color: rgb(253, 253, 253);
-    margin-top: 0;
-    margin: 0;
-
-}
-
-.grid-ep {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    background-color: #0f0f12;
-    padding: 5px;
-}
-
-
-.cardvid {
-    background: #1a1a22;
-    border-radius: 12px;
-    overflow: hidden;
-    text-align: center;
-    color: #ffffff;
-
-    position: relative;
-    cursor: pointer;
-}
-
-.cardvid img {
-    width: 100%;
-    height: 140px;
-    object-fit: cover;
-}
-
-.cardvid p {
-    margin: 0;
-    padding: 10px;
-    font-size: 14px;
-
-}
-
-.cardvid a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.cardvid a:hover {
-    color: #c084fc;
-}
-
-
-
-.episodios0 {
-    background-color: #000000;
-    padding: 0;
-}
-
 .temporadas {
     position: absolute;
     display: flex;
     justify-content: center;
     gap: 20px;
     width: 100%;
-
 }
 
 .btntemporada {
@@ -427,19 +311,66 @@ h2 {
     transform: scale(1.05);
 }
 
-
-
-.playep {
+.bannerAnimet {
     width: 100%;
-    height: 500%;
-    border-radius: 12px;
-    margin-top: 20px;
+    height: 200px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0)), url(../img/temp01.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
 }
 
+.barrtitulo {
+    background: #0f0f12;
+    user-select: none;
+}
 
+.barratitulo,
+h2 {
+    color: white;
+}
 
-/*===FIM TEMPORADAS===*/
-/*===manga===*/
+.grid-ep {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    background-color: #0f0f12;
+    padding: 5px;
+}
+
+.cardvid {
+    background: #1a1a22;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+}
+
+.cardvid img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.cardvid p {
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.cardvid :hover {
+    color: #c084fc;
+}
+
+/*FIM TEMPORADAS*/
+
+/*###########################################################*/
+
+/*COMEÇO MANGA*/
+
 .bannermanga {
     width: 100%;
     height: 200px;
@@ -448,26 +379,15 @@ h2 {
     background-position: center;
     display: flex;
     align-items: center;
-
-
 }
 
 .barrtitulomanga {
     margin-left: 50%;
 }
 
-
-.ler {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 10px 14px;
-    border-radius: 8px;
-    user-select: none;
+.hrecentes,
+.htodos {
+    margin-left: 2%;
 }
 
 .cardler-manga {
@@ -480,18 +400,32 @@ h2 {
     color: #ffffff;
     position: relative;
     cursor: pointer;
-    
-}
-.cardler-manga,a,p{
-    text-decoration: none;
 }
 
+.cardler-manga,
+a,
+p {
+    text-decoration: none;
+}
 
 .cardler-manga img {
     width: 100%;
     height: 160px;
     object-fit: cover;
     display: block;
+}
+
+.ler {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 14px;
+    border-radius: 8px;
+    user-select: none;
 }
 
 .grid-epmanga {
@@ -515,7 +449,6 @@ h2 {
     overflow-y: auto;
     overflow-x: hidden;
     border-radius: 12px;
-
 }
 
 .manga1 {
@@ -535,12 +468,6 @@ h1 {
     color: white;
 }
 
-.perfiltopo {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
 .perfilimg {
     width: 180px;
     height: 180px;
@@ -552,20 +479,36 @@ h1 {
     display: flex;
     flex-direction: column;
 }
-.hrecentes, .htodos{
+
+.hrecentes,
+.htodos {
     margin-left: 2%;
 }
-.cardler-manga ,a{
+
+.cardler-manga,
+a {
     text-decoration: none;
     height: 100%;
     color: #ffffff;
 }
+
 .cardler-manga a:hover {
     color: #c084fc;
 }
-.footer__link:hover{
+
+/*############################################################*/
+
+/*FIM MANGA*/
+.perfilH2 {
+    color: white;
+}
+
+.perfilPoderes {
+    color: white;
+}
+
+.footer__link:hover {
     text-decoration: none;
-    
 }
 
 /* Opcional: garante que a topbar fique clicável se tiver algo por cima */
@@ -592,3 +535,45 @@ h1 {
     display: grid;
 
 }*/
+card-destaque {
+    background: #11131a;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #1f1f26;
+    text-align: center;
+}
+
+.card-destaque img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.card-destaque h4 {
+    margin-bottom: 10px;
+    color: #c084fc;
+}
+
+.card-destaque p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.perfilRodape {
+    align-items: center;
+    background-color: #1f1f26;
+    margin: auto;
+}
+
+.menuLink {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+
+.menuLink:hover {
+    background: #1f1f26;
+}

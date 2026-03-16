@@ -3,8 +3,8 @@
 
 
 
-/* camada escura por cima da imagem */
-.card::after {
+* camada escura por cima da imagem *
+card::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -16,48 +16,17 @@
   transition: opacity .35s ease;
 }
 
-/* título */
-.cardTitulo {
+/* título *
+cardTitulo 
   position: absolute;
   left: 14px;
   bottom: 14px;
-  color: #fff;
+  color: #e51b1b;
   font-weight: 700;
   font-size: 18px;
   letter-spacing: .5px;
   opacity: 0;
   transform: translateY(10px);
   transition: opacity .35s ease, transform .35s ease;
-}
 
-/* HOVER */
-.card:hover .cardImg {
-  transform: scale(1.06);
-  filter: brightness(.85);
-}
-
-.card:hover::after {
-  opacity: 1;
-}
-
-.card:hover .cardTitulo {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.cardImggojo {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 14px;
-}
-
-/* ajuste específico */
-.imgyuji2 {
-  object-position: center 35%;
-  object-fit: contain;
-}
-
-.gojo {
-  object-position: center top;
-}
+*/
