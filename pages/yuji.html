@@ -11,192 +11,189 @@
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
-<body>
-    <div id="corpo">
+<body id="body">
+    <div id="topbar">
 
-        <div id="cabecalho">
-            <div id="topbar">
-                <div id="topbarEsq">
-                    <button id="btnHamburger">☰</button>
+        <section class="topbarEsq">
+            <button id="btnHamburger">☰</button>
 
-                    <nav id="menuLateral" class="menuLateral">
-                        <a class="menuLink" href="../index.html">Início</a>
-                        <a class="menuLink" href="./personagens.html">Personagens</a>
-                        <a class="menuLink" href="./episodios.html">Episódios</a>
-                        <a class="menuLink" href="./manga.html">Mangá</a>
+            <nav id="menuLateral" class="menuLateral">
+                <a class="menuLink" href="../index.html">Início</a>
+                <a class="menuLink" href="../pages/personagens.html">Personagens</a>
+                <a class="menuLink" href="../pages/episodios.html">temporadas</a>
+                <a class="menuLink" href="../pages/manga.html">Mangá</a>
 
-                    </nav>
+            </nav>
 
-                    <a href="../index.html">
-                        <img id="logoTopo" src="../img/favicon.png" alt="Logo Jujutsu">
-                    </a>
+            <a href="../index.html">
+                <img id="logoTopo" src="../img/favicon.png" alt="Logo Jujutsu">
+            </a>
+        </section>
+
+        <section class="topbarMeio">
+            <input id="inputPesquisa" type="text" placeholder="Pesquisar...">
+        </section>
+
+        <section class="topbarDir">
+            <a class="linkTopo" href="../pages/personagens.html">Personagens</a>
+            <a class="linkTopo" href="../pages/episodios.html">temporadas</a>
+        </section>
+
+    </div>
+    <!--inicio do conteudo-->
+    <div id="conteudo">
+        <section class="perfilWrap">
+            <div class="perfilCard">
+
+                <div class="perfiltopo">
+                    <img class="perfilimg" src="../img/yuji2.jpg" alt="Personagem">
+                    <div class="perfiltopotext">
+                        <h1 id="perfilNome" class="perfilNome">Yuji Itadori</h1>
+                        <p id="perfilSub" class="perfilSub">O hospedeiro de Sukuna,</p>
+                        <span class="cardTitulo">Yuji Itadori</span>
+                    </div>
                 </div>
 
-                <div id="topbarMeio">
-                    <input id="inputPesquisa" type="text" placeholder="Pesquisar...">
+                <div id="perfilBox" class="perfilBox">
+                    <h2 class="perfilH2">Sobre</h2>
+                    <p id="perfilSobre">Yuji Itadori (虎杖悠仁 Itadori Yūji) é o protagonista principal da série Jujutsu
+                        Kaisen. Ele é o filho de Jin Itadori e Kaori Itadori e neto de Wasuke Itadori. Yuji vivia
+                        uma vida normal na Cidade de Sendai até encontrar Megumi e comer um dos dedos de Sukuna.
+                        Após se tornar o receptáculo de Sukuna, Yuji começou a frequentar a Escola Jujutsu de Tóquio
+                        junto com Megumi e Nobara como estudantes do primeiro ano.</p>
+
+
+                    <h2 class="perfilH2">Aparência</h2>
+                    <p id="perfilAparencia">
+                        Yuji é um jovem de altura mediana e parece ter uma constituição fina quando veste roupas
+                        largas, mas na verdade tem um físico atlético e musculoso. Ele também tem olhos castanhos
+                        claros relativamente grandes e cabelo rosa espetado (Loiro Acastanhado no Mangá) penteado em
+                        um cnrte inferior. Quando se torna o receptáculo de Sukuna após comer seu dedo, ele ganha um
+                        segundo par de olhos que só abrem quando Sukuna controla o corpo, junto com suas marcas.
+
+                        No começo da série, Yuji vestia uma jaqueta clara com capuz, calças pretas de punho alto e
+                        sapatos brancos. Porém, no anime, as calças eram jeans e os sapatos eram vermelhos claros.
+                        Quando Yuji entrou na Escola Jujutsu de Tóquio, ele começou a usar sua versão do uniforme:
+                        uma camisa de manga longa preta parecendo um gakuran por cima de um capuz vermelho, calças
+                        pretas e sapatos vermelhos.
+
+                        Ele ganha uma cicatriz notável entre os dois olhos e uma cicatriz menor na comissura labial
+                        esquerda da boca durante o Incidente de Shibuya. Ambas as cicatrizes foram causadas por
+                        Mahito; a primeira foi infligida quando o espírito amaldiçoado o atacou de surpresa com uma
+                        lâmina no punho,[3] e a segunda foi infligida quando Yuji o enfrentou após sua
+                        transformação.[4]
+
+                        Ele perdeu o segundo par de olhos que só abrem quando Sukuna controla seu corpo e as marcas
+                        depois de ele transferir para Megumi como seu novo receptáculo.[5] Yuji também perdeu seu
+                        dedo mindinho esquerdo quando Sukuna o decepou e forçou Megumi a comê-lo.[6] Yuji logo
+                        depois perdeu seu dedo anelar esquerdo para que Yuta Okkotsu pudesse copiar a técnica de
+                        Sukuna.[7]
+                    </p>
+
+                    <h2 class="perfilH2">Técnica</h2>
+                    <p id="perfilTecnicas">Yuji Itadori, em Jujutsu Kaisen, evolui de um combatente físico bruto
+                        para
+                        um feiticeiro de alto nível com técnicas amaldiçoadas poderosas. Suas principais habilidades
+                        incluem o Punho Divergente, Fulgor Negro (Black Flash), Manipulação de Sangue, a técnica
+                        Santuário (cortes) e Técnica Amaldiçoada Reversa para cura. </p>
+
+                    <h2 class="perfilH2">Principais Técnicas:
+                    </h2>
+                    <ul id="perfiltecnicas" class="perfilLista">
+                        <li>Punho Divergente (Divergent Fist): Yuji soca primeiro com força física e, devido ao
+                            atraso da energia amaldiçoada, um segundo impacto de energia ocorre logo depois.
+                        </li>
+                        <li>
+                            Fulgor Negro (Black Flash): Yuji é proficiente em liberar essa distorção espacial que
+                            aumenta o poder de seu soco à potência da 2.5, ativando energia amaldiçoada no momento
+                            do impacto.
+                        </li>
+                        <li>
+                            Santuário (Mizushi): Após o despertar, Yuji desenvolveu sua própria versão da técnica de
+                            Sukuna, permitindo-lhe usar cortes (Desmantelar) para atacar a alma do oponente.
+                        </li>
+                        <li>
+                            Manipulação de Sangue (Blood Manipulation): Aprendida após consumir as Pinturas da
+                            Morte, permite controlar seu sangue para combate, incluindo a técnica Sangue Perfurante
+                            (disparo de alta velocidade).
+                        </li>
+                        <li>
+                            Técnica Amaldiçoada Reversa (Reverse Cursed Technique): Yuji desenvolveu a capacidade de
+                            curar ferimentos graves instantaneamente usando energia amaldiçoada positiva.
+
+                        </li>
+                        <li>
+                            Manipulação da Alma: Devido a coexistir com Sukuna, Yuji percebe e interage com os
+                            contornos da alma, sendo eficaz contra inimigos como Mahito.
+                        </li>
+                        <li>
+                            Troca de Corpos/Almas: Habilidade demonstrada para trocar de corpo com aliados (como
+                            Kusakabe) durante treinamento, possivelmente ligada ao seu conhecimento da alma.
+                        </li>
+                        <li>
+                            Força e Velocidade Sobre-humanas: Mesmo sem energia amaldiçoada, Yuji possui habilidades
+                            físicas aprimoradas, incluindo resistência a venenos.
+                        </li>
+
+                    </ul>
+
+                    <h2 class="perfilH2">Curiosidades</h2>
+                    <p id="perfilCurios">Yuji Itadori, protagonista de Jujutsu Kaisené um prodígio físico com força
+                        sobre-humana, capaz de correr 50 metros em 3 segundos. Com 15 anos no início da série, ele é
+                        um receptáculo resistente a venenos, habilidoso no "Fulgor Negro" e tem um gosto peculiar
+                        por mulheres altas como Jennifer Lawrence.</p>
+                    <ul id="perfilCurios" class="perfilLista">
+
+                        <li>
+                            Apelido de Tigre: Antes de entrar no mundo jujutsu, era conhecido como "O Tigre do
+                            Colégio West Junior" por sua força e velocidade incríveis.
+                        </li>
+
+                        <li>
+                            Significado do Nome: Yuji (悠仁) pode ser interpretado como "Humanidade Inabalável",
+                            enquanto seu sobrenome contém os kanji para "tigre" e "vara".
+                        </li>
+
+                        <li>
+                            Origem Especial: Yuji foi criado por Kenjaku (possuindo o corpo de sua mãe, Kaori) e
+                            misturado com um dedo de Sukuna durante a gestação, tornando-o um receptáculo perfeito.
+
+                        </li>
+
+                        <li>
+                            Hobby e Estresse: Adora karaokê, TV e imitações. Porém, detesta estudar ciências, tendo
+                            falhado em ciência molecular.
+                        </li>
+
+                        <li>
+                            Alimentação: Não é exigente, mas ama tigelas de arroz e macarrão.
+                        </li>
+
+                        <li>
+                            Popularidade: Ficou em 1º lugar na primeira pesquisa de popularidade de Jujutsu Kaisen.
+                        </li>
+
+                        <li>
+                            Roupas: Usa capuz (hoodie) não por estilo, mas por ser indeciso com roupas.
+                        </li>
+
+                        <li>
+                            Físico: Com 173 cm, ele é extremamente forte e rápido, capaz de correr 50 metros em 3
+                            segundos.
+                        </li>
+                    </ul>
                 </div>
 
-                <div id="topbarDir">
-                    <a class="linkTopo" href="./personagens.html">Personagens</a>
-                    <a class="linkTopo" href="./episodios.html">Episódios</a>
-
+                <div class="perfilRodape">
+                    <a class="footer__link" href="../index.html">Início</a>
+                    <a class="footer__link" href="./personagens.html">Personagens</a>
+                    <a class="footer__link" href="./episodios.html">temporadas</a>
+                    <a class="footer__link" href="./manga.html">Mangá</a>
                 </div>
+
             </div>
-        </div>
-        <!--inicio do conteudo-->
-        <div id="conteudo">
-            <section class="perfilWrap">
-                <div class="perfilCard">
-
-                    <div class="perfiltopo">
-                        <img class="perfilimg" src="../img/yuji2.jpg" alt="Personagem">
-                        <div class="perfiltopotext">
-                            <h1 id="perfilNome" class="perfilNome">Yuji Itadori</h1>
-                            <p id="perfilSub" class="perfilSub">O hospedeiro de Sukuna,</p>
-                            <span class="cardTitulo">Yuji Itadori</span>
-                        </div>
-                    </div>
-
-                    <div id="perfilBox" class="perfilBox">
-                        <h2 class="perfilH2">Sobre</h2>
-                        <p id="perfilSobre">Yuji Itadori (虎杖悠仁 Itadori Yūji) é o protagonista principal da série Jujutsu
-                            Kaisen. Ele é o filho de Jin Itadori e Kaori Itadori e neto de Wasuke Itadori. Yuji vivia
-                            uma vida normal na Cidade de Sendai até encontrar Megumi e comer um dos dedos de Sukuna.
-                            Após se tornar o receptáculo de Sukuna, Yuji começou a frequentar a Escola Jujutsu de Tóquio
-                            junto com Megumi e Nobara como estudantes do primeiro ano.</p>
-
-
-                        <h2 class="perfilH2">Aparência</h2>
-                        <p id="perfilAparencia">
-                            Yuji é um jovem de altura mediana e parece ter uma constituição fina quando veste roupas
-                            largas, mas na verdade tem um físico atlético e musculoso. Ele também tem olhos castanhos
-                            claros relativamente grandes e cabelo rosa espetado (Loiro Acastanhado no Mangá) penteado em
-                            um cnrte inferior. Quando se torna o receptáculo de Sukuna após comer seu dedo, ele ganha um
-                            segundo par de olhos que só abrem quando Sukuna controla o corpo, junto com suas marcas.
-
-                            No começo da série, Yuji vestia uma jaqueta clara com capuz, calças pretas de punho alto e
-                            sapatos brancos. Porém, no anime, as calças eram jeans e os sapatos eram vermelhos claros.
-                            Quando Yuji entrou na Escola Jujutsu de Tóquio, ele começou a usar sua versão do uniforme:
-                            uma camisa de manga longa preta parecendo um gakuran por cima de um capuz vermelho, calças
-                            pretas e sapatos vermelhos.
-
-                            Ele ganha uma cicatriz notável entre os dois olhos e uma cicatriz menor na comissura labial
-                            esquerda da boca durante o Incidente de Shibuya. Ambas as cicatrizes foram causadas por
-                            Mahito; a primeira foi infligida quando o espírito amaldiçoado o atacou de surpresa com uma
-                            lâmina no punho,[3] e a segunda foi infligida quando Yuji o enfrentou após sua
-                            transformação.[4]
-
-                            Ele perdeu o segundo par de olhos que só abrem quando Sukuna controla seu corpo e as marcas
-                            depois de ele transferir para Megumi como seu novo receptáculo.[5] Yuji também perdeu seu
-                            dedo mindinho esquerdo quando Sukuna o decepou e forçou Megumi a comê-lo.[6] Yuji logo
-                            depois perdeu seu dedo anelar esquerdo para que Yuta Okkotsu pudesse copiar a técnica de
-                            Sukuna.[7]
-                        </p>
-
-                        <h2 class="perfilH2">Técnica</h2>
-                        <p id="perfilTecnicas">Yuji Itadori, em Jujutsu Kaisen, evolui de um combatente físico bruto
-                            para
-                            um feiticeiro de alto nível com técnicas amaldiçoadas poderosas. Suas principais habilidades
-                            incluem o Punho Divergente, Fulgor Negro (Black Flash), Manipulação de Sangue, a técnica
-                            Santuário (cortes) e Técnica Amaldiçoada Reversa para cura. </p>
-
-                        <h2 class="perfilH2">Principais Técnicas:
-                        </h2>
-                        <ul id="perfiltecnicas" class="perfilLista">
-                            <li>Punho Divergente (Divergent Fist): Yuji soca primeiro com força física e, devido ao
-                                atraso da energia amaldiçoada, um segundo impacto de energia ocorre logo depois.
-                            </li>
-                            <li>
-                                Fulgor Negro (Black Flash): Yuji é proficiente em liberar essa distorção espacial que
-                                aumenta o poder de seu soco à potência da 2.5, ativando energia amaldiçoada no momento
-                                do impacto.
-                            </li>
-                            <li>
-                                Santuário (Mizushi): Após o despertar, Yuji desenvolveu sua própria versão da técnica de
-                                Sukuna, permitindo-lhe usar cortes (Desmantelar) para atacar a alma do oponente.
-                            </li>
-                            <li>
-                                Manipulação de Sangue (Blood Manipulation): Aprendida após consumir as Pinturas da
-                                Morte, permite controlar seu sangue para combate, incluindo a técnica Sangue Perfurante
-                                (disparo de alta velocidade).
-                            </li>
-                            <li>
-                                Técnica Amaldiçoada Reversa (Reverse Cursed Technique): Yuji desenvolveu a capacidade de
-                                curar ferimentos graves instantaneamente usando energia amaldiçoada positiva.
-
-                            </li>
-                            <li>
-                                Manipulação da Alma: Devido a coexistir com Sukuna, Yuji percebe e interage com os
-                                contornos da alma, sendo eficaz contra inimigos como Mahito.
-                            </li>
-                            <li>
-                                Troca de Corpos/Almas: Habilidade demonstrada para trocar de corpo com aliados (como
-                                Kusakabe) durante treinamento, possivelmente ligada ao seu conhecimento da alma.
-                            </li>
-                            <li>
-                                Força e Velocidade Sobre-humanas: Mesmo sem energia amaldiçoada, Yuji possui habilidades
-                                físicas aprimoradas, incluindo resistência a venenos.
-                            </li>
-
-                        </ul>
-
-                        <h2 class="perfilH2">Curiosidades</h2>
-                        <p id="perfilCurios">Yuji Itadori, protagonista de Jujutsu Kaisené um prodígio físico com força
-                            sobre-humana, capaz de correr 50 metros em 3 segundos. Com 15 anos no início da série, ele é
-                            um receptáculo resistente a venenos, habilidoso no "Fulgor Negro" e tem um gosto peculiar
-                            por mulheres altas como Jennifer Lawrence.</p>
-                        <ul id="perfilCurios" class="perfilLista">
-
-                            <li>
-                                Apelido de Tigre: Antes de entrar no mundo jujutsu, era conhecido como "O Tigre do
-                                Colégio West Junior" por sua força e velocidade incríveis.
-                            </li>
-
-                            <li>
-                                Significado do Nome: Yuji (悠仁) pode ser interpretado como "Humanidade Inabalável",
-                                enquanto seu sobrenome contém os kanji para "tigre" e "vara".
-                            </li>
-
-                            <li>
-                                Origem Especial: Yuji foi criado por Kenjaku (possuindo o corpo de sua mãe, Kaori) e
-                                misturado com um dedo de Sukuna durante a gestação, tornando-o um receptáculo perfeito.
-
-                            </li>
-
-                            <li>
-                                Hobby e Estresse: Adora karaokê, TV e imitações. Porém, detesta estudar ciências, tendo
-                                falhado em ciência molecular.
-                            </li>
-
-                            <li>
-                                Alimentação: Não é exigente, mas ama tigelas de arroz e macarrão.
-                            </li>
-
-                            <li>
-                                Popularidade: Ficou em 1º lugar na primeira pesquisa de popularidade de Jujutsu Kaisen.
-                            </li>
-
-                            <li>
-                                Roupas: Usa capuz (hoodie) não por estilo, mas por ser indeciso com roupas.
-                            </li>
-
-                            <li>
-                                Físico: Com 173 cm, ele é extremamente forte e rápido, capaz de correr 50 metros em 3
-                                segundos.
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="perfilRodape">
-                        <a class="footer__link" href="../index.html">Início</a>
-                        <a class="footer__link" href="./personagens.html">Personagens</a>
-                        <a class="footer__link" href="./episodios.html">temporadas</a>
-                        <a class="footer__link" href="./manga.html">Mangá</a>
-                    </div>
-
-                </div>
-            </section>
-        </div>
+        </section>
+    </div>
 
     </div>
 

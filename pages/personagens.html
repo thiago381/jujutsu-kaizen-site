@@ -11,346 +11,331 @@
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
-<body>
-    <div id="corpo">
+<body id="body">
+    <div id="topbar">
 
-        <div id="cabecalho">
-            <div id="topbar">
+        <section class="topbarEsq">
+            <button id="btnHamburger">☰</button>
 
-                <div id="topbarEsq">
+            <nav id="menuLateral" class="menuLateral">
+                <a class="menuLink" href="../index.html">Início</a>
+                <a class="menuLink" href="../pages/personagens.html">Personagens</a>
+                <a class="menuLink" href="../pages/episodios.html">temporadas</a>
+                <a class="menuLink" href="../pages/manga.html">Mangá</a>
 
-                    <button id="btnHamburger">☰</button>
+            </nav>
 
-                    <nav id="menuLateral" class="menuLateral">
+            <a href="../index.html">
+                <img id="logoTopo" src="../img/favicon.png" alt="Logo Jujutsu">
+            </a>
+        </section>
 
-                        <a class="menuLink" href="../index.html">Início</a>
-                        <a class="menuLink" href="./personagens.html">Personagens</a>
-                        <a class="menuLink" href="./episodios.html">temporadas</a>
-                        <a class="menuLink" href="./manga.html">Mangá</a>
-                        
+        <section class="topbarMeio">
+            <input id="inputPesquisa" type="text" placeholder="Pesquisar...">
+        </section>
 
-                    </nav>
+        <section class="topbarDir">
+            <a class="linkTopo" href="../pages/personagens.html">Personagens</a>
+            <a class="linkTopo" href="../pages/episodios.html">temporadas</a>
+        </section>
 
-                    <a href="../index.html">
-                        <img id="logoTopo" src="../img/favicon.png" alt="Logo Jujutsu">
-                    </a>
+    </div>
+    <!--inicio conteudo personagens-->
 
-                </div>
+    <div id="conteudo">
+        <section class="pagina">
+            <h1 class="tituloPagina">Personagens</h1>
+            <p class="subTituloPagina">Escolhe um personagem pra ver detalhes.</p>
 
-                <div id="topbarMeio">
-                    <input id="inputPesquisa" type="text" placeholder="Pesquisar...">
-                </div>
+            <section class="gridPersonagens">
 
-                <div id="topbarDir">
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/satoru-gojo-jujutsu.jpg" alt="Satoru Gojo">
 
-                    <a class="linkTopo" href="./personagens.html">Personagens</a>
-                    <a class="linkTopo" href="./episodios.html">temporadas</a>
-                 
-                </div>
+                    <section class="infoPersonagem">
+                        <h3>Satoru Gojo</h3>
+                        <p>Feiticeiro mais forte.</p>
+                    </section>
 
-            </div>
-        </div>
-        <!--inicio conteudo personagens-->
-        <div id="conteudo">
+                </a>
 
-            <section class="pagina">
+                <a class="cardPersonagem" href="#">
 
-                <h1 class="tituloPagina">Personagens</h1>
-                <p class="subTituloPagina">Escolhe um personagem pra ver detalhes.</p>
+                    <img class="imgPersonagem" src="../img/yuji-itadori-sukuna.jpg" alt="Yuji Itadori">
 
-                <div class="gridPersonagens">
+                    <div class="infoPersonagem">
+                        <h3>Yuji Itadori</h3>
+                        <p>Hospedeiro de Sukuna.</p>
+                    </div>
 
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/satoru-gojo-jujutsu.jpg" alt="Satoru Gojo">
+                </a>
 
-                        <div class="infoPersonagem">
-                            <h3>Satoru Gojo</h3>
-                            <p>Feiticeiro mais forte.</p>
-                        </div>
+                <a class="cardPersonagem" href="#">
 
-                    </a>
+                    <img class="imgPersonagem" src="../img/megumi2.jpg" alt="Megumi Fushiguro">
 
-                    <a class="cardPersonagem" href="#">
+                    <div class="infoPersonagem">
+                        <h3>Megumi</h3>
+                        <p>Sombras e shikigamis.</p>
+                    </div>
 
-                        <img class="imgPersonagem" src="../img/yuji-itadori-sukuna.jpg" alt="Yuji Itadori">
+                </a>
 
-                        <div class="infoPersonagem">
-                            <h3>Yuji Itadori</h3>
-                            <p>Hospedeiro de Sukuna.</p>
-                        </div>
+                <a class="cardPersonagem" href="#">
 
-                    </a>
+                    <img class="imgPersonagem" src="../img/nobara-kugisaki-shibuya.jpg" alt="Nobara Kugisaki">
 
-                    <a class="cardPersonagem" href="#">
+                    <div class="infoPersonagem">
+                        <h3>Nobara</h3>
+                        <p>Martelo e pregos.</p>
+                    </div>
 
-                        <img class="imgPersonagem" src="../img/megumi2.jpg" alt="Megumi Fushiguro">
+                </a>
 
-                        <div class="infoPersonagem">
-                            <h3>Megumi</h3>
-                            <p>Sombras e shikigamis.</p>
-                        </div>
 
-                    </a>
+                <!--adicionados-->
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/maki.webp" alt="Satoru Gojo">
 
-                    <a class="cardPersonagem" href="#">
+                    <div class="infoPersonagem">
+                        <h3>Maki Zenin</h3>
+                        <p>Especialista em armas amaldiçoadas.</p>
+                    </div>
 
-                        <img class="imgPersonagem" src="../img/nobara-kugisaki-shibuya.jpg" alt="Nobara Kugisaki">
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/toge.jpg" alt="Satoru Gojo">
 
-                        <div class="infoPersonagem">
-                            <h3>Nobara</h3>
-                            <p>Martelo e pregos.</p>
-                        </div>
+                    <div class="infoPersonagem">
+                        <h3>Toge Inumaki</h3>
+                        <p>Usuário da Fala Amaldiçoada.</p>
+                    </div>
 
-                    </a>
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/panda.jpg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Panda</h3>
+                        <p>Cadáver amaldiçoado</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/kento.jpg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>kento nanami:</h3>
+                        <p>Feiticeiro de Grau 1 e ex-funcionário corporativo.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/shoko.jpeg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Shoko Ieiri</h3>
+                        <p>médica do colégio técnico de Jujutsu</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/masamichi.jpg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Masamichi Yaga</h3>
+                        <p>Diretor do Colégio Técnico de Jujutsu.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/atsuya.jpg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Atsuya Kusakabe</h3>
+                        <p>Instrutor e feiticeiro de Grau 1.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/mei-mei.jpg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Mei Mei</h3>
+                        <p>Feiticeira de Grau 1 especializada em combate.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/ui-ui.png" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Ui Ui</h3>
+                        <p>Irmão mais novo de Mei Mei</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/aoi.jpg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Aoi Todo</h3>
+                        <p>Feiticeiro de Grau 1 com força absurda</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/kasumi.jpeg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Kasumi Miwa</h3>
+                        <p>Estudante da escola de Jujutsu de Kyoto.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/kakichi.jpg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Kokichi Muta (Mechamaru)</h3>
+                        <p>Usuário da marionete amaldiçoada Mechamaru.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/noritoshi.png" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Noritoshi Kamo</h3>
+                        <p>Estudante da escola de Jujutsu de Kyoto.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/Momo-Nishimiya-jjk-EP14 (4).jpg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Momo Nishimiya</h3>
+                        <p>Estudante da escola de Jujutsu de Kyoto.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/mahito.png" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Mahito</h3>
+                        <p>Espírito amaldiçoado que manipula almas.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/jogo.webp" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Jogo</h3>
+                        <p>Espírito amaldiçoado ligado ao fogo e vulcões.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/Hanami-jjk-EP19 (1).jpg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Hanami</h3>
+                        <p>Espírito amaldiçoado ligado à natureza.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/thumb-1920-1340750.png" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Dagon</h3>
+                        <p>Espírito amaldiçoado ligado ao oceano.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/kenjaku.jpg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Kenjaku (Geto possuído)</h3>
+                        <p>Antigo feiticeiro que troca de corpos.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/suguru.jpg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Suguru Geto</h3>
+                        <p>Usuário da técnica Curse Manipulation.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/toji.jpeg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Toji Fushiguro</h3>
+                        <p>Caçador de feiticeiros sem energia amaldiçoada.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/yuki.jpg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Yuki Tsukumo</h3>
+                        <p>Feiticeira de grau especial.</p>
+                    </div>
+
+                </a>
+
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/tengen.jpg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Tengen</h3>
+                        <p>Ser imortal responsável pelas barreiras do mundo Jujutsu.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/choso.webp" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Choso</h3>
+                        <p>Usuário da técnica Blood Manipulation.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/yuta-okkotsu.jpg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Yuta Okkotsu</h3>
+                        <p>Feiticeiro especial e usuário de Rika.</p>
+                    </div>
+
+                </a>
+                <a class="cardPersonagem" href="#">
+                    <img class="imgPersonagem" src="../img/rika.jpg" alt="Satoru Gojo">
+
+                    <div class="infoPersonagem">
+                        <h3>Rika Orimoto</h3>
+                        <p>Espírito amaldiçoado ligado a Yuta Okkotsu.</p>
+                    </div>
+
+                </a>
 
 
-                    <!--adicionados-->
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/maki.webp" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Maki Zenin</h3>
-                            <p>Especialista em armas amaldiçoadas.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/toge.jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Toge Inumaki</h3>
-                            <p>Usuário da Fala Amaldiçoada.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/panda.jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Panda</h3>
-                            <p>Cadáver amaldiçoado</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/kento.jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>kento nanami:</h3>
-                            <p>Feiticeiro de Grau 1 e ex-funcionário corporativo.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/shoko.jpeg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Shoko Ieiri</h3>
-                            <p>médica do colégio técnico de Jujutsu</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/masamichi.jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Masamichi Yaga</h3>
-                            <p>Diretor do Colégio Técnico de Jujutsu.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/atsuya.jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Atsuya Kusakabe</h3>
-                            <p>Instrutor e feiticeiro de Grau 1.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/mei-mei.jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Mei Mei</h3>
-                            <p>Feiticeira de Grau 1 especializada em combate.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/ui-ui.png" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Ui Ui</h3>
-                            <p>Irmão mais novo de Mei Mei</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/aoi.jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Aoi Todo</h3>
-                            <p>Feiticeiro de Grau 1 com força absurda</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/kasumi.jpeg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Kasumi Miwa</h3>
-                            <p>Estudante da escola de Jujutsu de Kyoto.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/kakichi.jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Kokichi Muta (Mechamaru)</h3>
-                            <p>Usuário da marionete amaldiçoada Mechamaru.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/noritoshi.png" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Noritoshi Kamo</h3>
-                            <p>Estudante da escola de Jujutsu de Kyoto.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/Momo-Nishimiya-jjk-EP14 (4).jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Momo Nishimiya</h3>
-                            <p>Estudante da escola de Jujutsu de Kyoto.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/mahito.png" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Mahito</h3>
-                            <p>Espírito amaldiçoado que manipula almas.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/jogo.webp" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Jogo</h3>
-                            <p>Espírito amaldiçoado ligado ao fogo e vulcões.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/Hanami-jjk-EP19 (1).jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Hanami</h3>
-                            <p>Espírito amaldiçoado ligado à natureza.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/thumb-1920-1340750.png" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Dagon</h3>
-                            <p>Espírito amaldiçoado ligado ao oceano.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/kenjaku.jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Kenjaku (Geto possuído)</h3>
-                            <p>Antigo feiticeiro que troca de corpos.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/suguru.jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Suguru Geto</h3>
-                            <p>Usuário da técnica Curse Manipulation.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/toji.jpeg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Toji Fushiguro</h3>
-                            <p>Caçador de feiticeiros sem energia amaldiçoada.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/yuki.jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Yuki Tsukumo</h3>
-                            <p>Feiticeira de grau especial.</p>
-                        </div>
-
-                    </a>
-                    
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/tengen.jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Tengen</h3>
-                            <p>Ser imortal responsável pelas barreiras do mundo Jujutsu.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/choso.webp" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Choso</h3>
-                            <p>Usuário da técnica Blood Manipulation.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/yuta-okkotsu.jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Yuta Okkotsu</h3>
-                            <p>Feiticeiro especial e usuário de Rika.</p>
-                        </div>
-
-                    </a>
-                    <a class="cardPersonagem" href="#">
-                        <img class="imgPersonagem" src="../img/rika.jpg" alt="Satoru Gojo">
-
-                        <div class="infoPersonagem">
-                            <h3>Rika Orimoto</h3>
-                            <p>Espírito amaldiçoado ligado a Yuta Okkotsu.</p>
-                        </div>
-
-                    </a>
-
-
-
-                </div>
 
             </section>
-
-        </div>
-
+        </section>
     </div>
 
     <footer class="footer">
@@ -376,7 +361,7 @@
 
             </nav>
 
-            
+
         </div>
 
         <div class="footer__bottom">

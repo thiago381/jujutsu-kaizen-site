@@ -11,38 +11,35 @@
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
-<body>
-    <div id="corpo">
+<body id="body">
+    <div id="topbar">
 
-        <div id="cabecalho">
-            <div id="topbar">
-                <div id="topbarEsq">
-                    <button id="btnHamburger">☰</button>
+        <section class="topbarEsq">
+            <button id="btnHamburger">☰</button>
 
-                    <nav id="menuLateral" class="menuLateral">
-                        <a class="menuLink" href="../index.html">Início</a>
-                        <a class="menuLink" href="./personagens.html">Personagens</a>
-                        <a class="menuLink" href="./episodios.html">Episódios</a>
-                        <a class="menuLink" href="./manga.html">Mangá</a>
-                     
-                    </nav>
+            <nav id="menuLateral" class="menuLateral">
+                <a class="menuLink" href="../index.html">Início</a>
+                <a class="menuLink" href="../pages/personagens.html">Personagens</a>
+                <a class="menuLink" href="../pages/episodios.html">temporadas</a>
+                <a class="menuLink" href="../pages/manga.html">Mangá</a>
 
-                    <a href="../index.html">
-                        <img id="logoTopo" src="../img/favicon.png" alt="Logo Jujutsu">
-                    </a>
-                </div>
+            </nav>
 
-                <div id="topbarMeio">
-                    <input id="inputPesquisa" type="text" placeholder="Pesquisar...">
-                </div>
+            <a href="../index.html">
+                <img id="logoTopo" src="../img/favicon.png" alt="Logo Jujutsu">
+            </a>
+        </section>
 
-                <div id="topbarDir">
-                    <a class="linkTopo" href="./personagens.html">Personagens</a>
-                    <a class="linkTopo" href="./episodios.html">Episódios</a>
-                  
-                </div>
-            </div>
-        </div>
+        <section class="topbarMeio">
+            <input id="inputPesquisa" type="text" placeholder="Pesquisar...">
+        </section>
+
+        <section class="topbarDir">
+            <a class="linkTopo" href="../pages/personagens.html">Personagens</a>
+            <a class="linkTopo" href="../pages/episodios.html">temporadas</a>
+        </section>
+
+    </div>
         <!--inicio do conteudo-->
         <div id="conteudo">
             <section class="perfilWrap">
@@ -190,12 +187,12 @@
                         </ul>
                     </div>
 
-                    <div class="perfilRodape">
+                    <section class="perfilRodape">
                         <a class="footer__link" href="../index.html">Início</a>
                         <a class="footer__link" href="./personagens.html">Personagens</a>
                         <a class="footer__link" href="./episodios.html">temporadas</a>
                         <a class="footer__link" href="./manga.html">Mangá</a>
-                    </div>
+                    </section>
 
                 </div>
             </section>

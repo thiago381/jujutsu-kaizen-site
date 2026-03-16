@@ -10,192 +10,162 @@
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="stylesheet" href="./css/perfil.css">
 </head>
+<body id="body">
+    <div id="topbar">
 
-<body>
-    <div id="corpo">
+        <section class="topbarEsq">
+            <button id="btnHamburger">☰</button>
 
-        <div id="cabecalho">
-            <div id="topbar">
+            <nav id="menuLateral" class="menuLateral">
+                <a class="menuLink" href="./index.html">Início</a>
+                <a class="menuLink" href="./pages/personagens.html">Personagens</a>
+                <a class="menuLink" href="./pages/episodios.html">temporadas</a>
+                <a class="menuLink" href="./pages/manga.html">Mangá</a>
 
-                <div id="topbarEsq">
-                    <button id="btnHamburger">☰</button>
+            </nav>
 
-                    <nav id="menuLateral" class="menuLateral">
-                        <a class="menuLink" href="./index.html">Início</a>
-                        <a class="menuLink" href="./pages/personagens.html">Personagens</a>
-                        <a class="menuLink" href="./pages/episodios.html">temporadas</a>
-                        <a class="menuLink" href="./pages/manga.html">Mangá</a>
+            <a href="./index.html">
+                <img id="logoTopo" src="./img/favicon.png" alt="Logo Jujutsu">
+            </a>
+        </section>
 
-                    </nav>
+        <section class="topbarMeio">
+            <input id="inputPesquisa" type="text" placeholder="Pesquisar...">
+        </section>
 
-                    <a href="./index.html">
-                        <img id="logoTopo" src="./img/favicon.png" alt="Logo Jujutsu">
-                    </a>
-                </div>
-
-                <div id="topbarMeio">
-                    <input id="inputPesquisa" type="text" placeholder="Pesquisar...">
-                </div>
-
-                <div id="topbarDir">
-                    <a class="linkTopo" href="./pages/personagens.html">Personagens</a>
-                    <a class="linkTopo" href="./pages/episodios.html">temporadas</a>
-
-                </div>
-
-            </div>
-        </div>
-
-        <div id="conteudo">
-            <div class="grid2">
-                <div id="destaque">
-
-                    <div id="destaqueEsq">
-                        <section class="ultimoep">
-                            <article class="cardytb">
-                                <a href="https://www.youtube.com/watch?v=-9VItl2M2JE">
-                                    <img class="imgtrailer" src="./img/temp1ep1.jpg" alt="jujutsu temporada 1 ep1">
-                                    <span class="play">▶</span><!--usado para destacar dentro de um elemento-->
-                                </a>
-                            </article>
-
-                            <h2>
-                                trailer
-                            </h2>
-
-                        </section>
-                    </div>
-                    <div id="barradir">
-                        <div class="carousel">
-
-                            <a class="card" href="./pages/gojo.html?id=gojo">
-                                <img class="cardImg imggojo" src="./img/gojo.webp" alt=" Satoru Gojo">
-                                <span class="cardTitulo">Satoru Gojo</span>
-                            </a>
-
-                            <a class="card" href="./pages/yuji.html">
-                                <img class="cardImg imgyuji" src="./img/yuji2.jpg" alt="Yuji">
-                                <span class="cardTitulo">Yuji Itadori</span>
-                            </a>
-
-                            <a class="card" href="./pages/megumi.html">
-                                <img class="cardImg" src="./img/megumi.jpg" alt="Megumi">
-                                <span class="cardTitulo">Megumi Fushiguro</span>
-                            </a>
-
-                            <a class="card" href="./pages/nobara.html?id=nobara">
-                                <img class="cardImg" src="./img/nobara.jpg" alt="Nobara">
-                                <span class="cardTitulo">Nobara Kugisaki</span>
-                            </a>
-
-                            <a class="card" href="./pages/sukuna.html?id=sukuna">
-                                <img class="cardImg" src="./img/sakuna.png" alt="Sukuna">
-                                <span class="cardTitulo">Ryomen Sukuna</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-
-                <div class=info>
-
-                    <div class="infosesq">
-                        <section>
-                            <h2> Sinopse e Enredo</h2>
-                            <p> A trama segue Yuji Itadori, um estudante do ensino médio com habilidades físicas
-                                Sobre-humanas, que vive uma vida normal até se envolver com o ocultismo. Para salvar
-                                amigos de uma maldição, Itadori consome um objeto amaldiçoado de grau especial: um dos
-                                dedos de Ryomen Sukuna, o "Rei das Maldições".
-                                Wikipedia
-                                Wikipedia
-                                +4
-                                Em vez de morrer, Itadori se torna o receptáculo de Sukuna, conseguindo manter o
-                                controle de seu corpo. Sob a tutela do poderoso feiticeiro Satoru Gojo, ele entra para a
-                                Escola Técnica Superior de Jujutsu de Tóquio. A missão de Itadori é encontrar e consumir
-                                os outros 19 dedos de Sukuna para, ao final, ser executado, eliminando a maldição de uma
-                                vez por todas.
-                            </p>
-                            <h2> O Universo e os Conceitos de Jujutsu</h2>
-                            <p>Energia Amaldiçoada: É a força motriz gerada por emoções negativas. Feiticeiros aprendem
-                                a controlar essa energia para combater maldições.
-                                Maldições (Curses): Criaturas perigosas nascidas do acúmulo de energia negativa.
-                                Feiticeiros de Jujutsu trabalham nas sombras para exorcizá-las.
-                                Técnicas Amaldiçoadas: Habilidades inatas de cada feiticeiro que utilizam a energia
-                                amaldiçoada para efeitos únicos.
-                                Expansão de Domínio (Domain Expansion): A técnica suprema. O usuário cria um espaço
-                                fechado com barreiras onde o seu feitiço tem acerto garantido (hit-kill) contra o alvo.
-                                Graus (Rankings): Feiticeiros e maldições são classificados de 4 a 1 (sendo 1 o mais
-                                forte), além do "Grau Especial" (especial/nível incalculável)</p>
-                        </section>
-                    </div>
-
-                    <div class="infodir">
-                        <section>
-                            <h2> Personagens Principais</h2>
-                            <p>Yuji Itadori: Protagonista, determinado e fisicamente resistente. Receptáculo de Sukuna.
-
-                                Megumi Fushiguro: Feiticeiro experiente do primeiro ano, usuário da Técnica das Dez
-
-                                Sombras (invocação de Shikigamis).
-
-                                Nobara Kugisaki: Feiticeira do primeiro ano com uma personalidade forte, usa martelo e
-
-                                pregos como ferramenta amaldiçoada.
-
-                                Satoru Gojo: O feiticeiro mais forte da atualidade. Professor de Itadori, com técnicas
-
-                                de manipulação do espaço (Infinito/Limitless).
-
-                                Ryomen Sukuna: Rei das Maldições. Encarnou no corpo de Itadori. Extremamente sádico e
-
-                                poderoso.
-
-                                Kento Nanami: Feiticeiro veterano, mentore de Itadori, conhecido por ser racional e
-
-                                sério.
-
-                                Suguru Geto: O principal vilão no início (após os eventos de Jujutsu Kaisen 0), busca
-
-                                criar um mundo apenas para feiticeiros.
-
-                                Yuta Okkotsu: Protagonista de Jujutsu Kaisen 0, um feiticeiro de grau especial com
-                                imensa energia. </p>
-                            <h2>
-                                Arcos Narrativos Importantes
-                            </h2>
-                            <p>Introdução: Itadori engole o dedo de Sukuna e entra na escola Jujutsu.
-                                Útero Amaldiçoado/Mahito: Introdução dos antagonistas principais e desenvolvimento do
-                                trio principal.
-                                Kyoto Goodwill Event: Torneio entre as escolas de Tóquio e Kyoto, interrompido por
-                                vilões.
-                                Inventário Oculto (2ª Temporada): Explica o passado de Gojo e Geto, mostrando como se
-                                tornaram inimigos.
-                                Incidente de Shibuya (2ª Temporada): Arco marcante onde as maldições tentam selar Gojo e
-                                causam caos em massa.
-                                Jogo do Abate (Culling Game): Um "battle royale" orquestrado por Kenjaku (o cérebro no
-                                corpo de Geto) para forçar a evolução da humanidade através de energia amaldiçoada. </p>
-                        </section>
-                    </div>
-                </div>
-
-            </div>
-            </section>
-        </div>
+        <section class="topbarDir">
+            <a class="linkTopo" href="./pages/personagens.html">Personagens</a>
+            <a class="linkTopo" href="./pages/episodios.html">temporadas</a>
+        </section>
 
     </div>
+    <div id="destaque">
+        <section class="destaqueEsq">
+            <a href="https://www.youtube.com/watch?v=-9VItl2M2JE">
+                <img class="imgtrailer" src="./img/temp1ep1.jpg" alt="jujutsu temporada 1 ep1">
+                <span class="play">▶</span><!--usado para destacar dentro de um elemento-->
+            </a>
+            <h2>
+                trailer
+            </h2>
+        </section>
+        <div id="carousel">
 
+            <a class="card" href="./pages/gojo.html?id=gojo">
+                <img class="cardImg imggojo" src="./img/gojo.webp" alt=" Satoru Gojo">
+                <span class="cardTitulo">Satoru Gojo</span>
+            </a>
+
+            <a class="card" href="./pages/yuji.html">
+                <img class="cardImg imgyuji" src="./img/yuji2.jpg" alt="Yuji">
+                <span class="cardTitulo">Yuji Itadori</span>
+            </a>
+
+            <a class="card" href="./pages/megumi.html">
+                <img class="cardImg" src="./img/megumi.jpg" alt="Megumi">
+                <span class="cardTitulo">Megumi Fushiguro</span>
+            </a>
+
+            <a class="card" href="./pages/nobara.html?id=nobara">
+                <img class="cardImg" src="./img/nobara.jpg" alt="Nobara">
+                <span class="cardTitulo">Nobara Kugisaki</span>
+            </a>
+
+            <a class="card" href="./pages/sukuna.html?id=sukuna">
+                <img class="cardImg" src="./img/sakuna.png" alt="Sukuna">
+                <span class="cardTitulo">Ryomen Sukuna</span>
+            </a>
+        </div>
     </div>
+    <div class=info>
+        <section class="infosesq">
+            <article>
+                <h2> Sinopse e Enredo</h2>
+                <p> A trama segue Yuji Itadori, um estudante do ensino médio com habilidades físicas
+                    Sobre-humanas, que vive uma vida normal até se envolver com o ocultismo. Para salvar
+                    amigos de uma maldição, Itadori consome um objeto amaldiçoado de grau especial: um dos
+                    dedos de Ryomen Sukuna, o "Rei das Maldições".
+                    Wikipedia
+                    Wikipedia
+                    +4
+                    Em vez de morrer, Itadori se torna o receptáculo de Sukuna, conseguindo manter o
+                    controle de seu corpo. Sob a tutela do poderoso feiticeiro Satoru Gojo, ele entra para a
+                    Escola Técnica Superior de Jujutsu de Tóquio. A missão de Itadori é encontrar e consumir
+                    os outros 19 dedos de Sukuna para, ao final, ser executado, eliminando a maldição de uma
+                    vez por todas.
+                </p>
+                <h2> O Universo e os Conceitos de Jujutsu</h2>
+                <p>Energia Amaldiçoada: É a força motriz gerada por emoções negativas. Feiticeiros aprendem
+                    a controlar essa energia para combater maldições.
+                    Maldições (Curses): Criaturas perigosas nascidas do acúmulo de energia negativa.
+                    Feiticeiros de Jujutsu trabalham nas sombras para exorcizá-las.
+                    Técnicas Amaldiçoadas: Habilidades inatas de cada feiticeiro que utilizam a energia
+                    amaldiçoada para efeitos únicos.
+                    Expansão de Domínio (Domain Expansion): A técnica suprema. O usuário cria um espaço
+                    fechado com barreiras onde o seu feitiço tem acerto garantido (hit-kill) contra o alvo.
+                    Graus (Rankings): Feiticeiros e maldições são classificados de 4 a 1 (sendo 1 o mais
+                    forte), além do "Grau Especial" (especial/nível incalculável)</p>
+            </article>
+        </section>
 
+        <section class="infodir">
+            <article>
+                <h2> Personagens Principais</h2>
+                <p>Yuji Itadori: Protagonista, determinado e fisicamente resistente. Receptáculo de Sukuna.
+
+                    Megumi Fushiguro: Feiticeiro experiente do primeiro ano, usuário da Técnica das Dez
+
+                    Sombras (invocação de Shikigamis).
+
+                    Nobara Kugisaki: Feiticeira do primeiro ano com uma personalidade forte, usa martelo e
+
+                    pregos como ferramenta amaldiçoada.
+
+                    Satoru Gojo: O feiticeiro mais forte da atualidade. Professor de Itadori, com técnicas
+
+                    de manipulação do espaço (Infinito/Limitless).
+
+                    Ryomen Sukuna: Rei das Maldições. Encarnou no corpo de Itadori. Extremamente sádico e
+
+                    poderoso.
+
+                    Kento Nanami: Feiticeiro veterano, mentore de Itadori, conhecido por ser racional e
+
+                    sério.
+
+                    Suguru Geto: O principal vilão no início (após os eventos de Jujutsu Kaisen 0), busca
+
+                    criar um mundo apenas para feiticeiros.
+
+                    Yuta Okkotsu: Protagonista de Jujutsu Kaisen 0, um feiticeiro de grau especial com
+                    imensa energia. </p>
+                <h2>
+                    Arcos Narrativos Importantes
+                </h2>
+                <p>Introdução: Itadori engole o dedo de Sukuna e entra na escola Jujutsu.
+                    Útero Amaldiçoado/Mahito: Introdução dos antagonistas principais e desenvolvimento do
+                    trio principal.
+                    Kyoto Goodwill Event: Torneio entre as escolas de Tóquio e Kyoto, interrompido por
+                    vilões.
+                    Inventário Oculto (2ª Temporada): Explica o passado de Gojo e Geto, mostrando como se
+                    tornaram inimigos.
+                    Incidente de Shibuya (2ª Temporada): Arco marcante onde as maldições tentam selar Gojo e
+                    causam caos em massa.
+                    Jogo do Abate (Culling Game): Um "battle royale" orquestrado por Kenjaku (o cérebro no
+                    corpo de Geto) para forçar a evolução da humanidade através de energia amaldiçoada. </p>
+            </article>
+        </section>
+    </div>
+    </section>
     <footer class="footer">
         <div class="footer__container">
 
-            <div class="footer__brand">
+            <section class="footer__brand">
                 <img class="footer__logo" src="./img/favicon.png" alt="Logo Jujutsu">
                 <p class="footer__text">
                     Fanpage do Jujutsu Kaisen • Projeto de estudo em HTML/CSS
                 </p>
-            </div>
+            </section>
 
             <nav class="footer__nav">
                 <a class="footer__link" href="./index.html">Início</a>

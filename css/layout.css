@@ -1,19 +1,12 @@
 body {
     margin: 0;
     overflow-x: hidden;
-
-}
-
-#corpo {
     background: #0d0c0b;
-    /*define a cor do fundo*/
-    min-height: 100vh;
-    /*define a altura minina*/
 }
 
-
+/*#################################################################################*/
 #topbar {
-    height: 72px;
+    height: 92px;
     /*define a altura*/
     width: 100%;
     /*define a larguna*/
@@ -31,13 +24,14 @@ body {
     /*criar espaços entre filhos*/
 }
 
-#topbarEsq {
+.topbarEsq {
+    position: relative;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-#topbarMeio {
+.topbarMeio {
     flex: 1;
     /*atalho*/
     display: flex;
@@ -45,18 +39,13 @@ body {
     /*alinha os itens na horizontal*/
 }
 
-#topbarDir {
-    isplay: flex;
+.topbarDir {
+    display: flex;
     align-items: center;
     gap: 14px;
 }
 
-
-#conteudo {
-    padding: 22px;
-    color: #fff;
-    /*define a cor do texto*/
-}
+/*###################################################################################*/
 
 #destaque {
     display: grid;
@@ -64,10 +53,38 @@ body {
     grid-template-columns: 30% 70%;
     /*define o tamanho das colunas*/
     gap: 20px;
-    margin-top: 18px;
+    margin-top: 10px;
     /*cria um espaço externo acima do elemeto*/
+
+}
+.card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 14px;
+  cursor: pointer;
+}
+#carousel {
+    border-radius: 12px;
+    background-color: #1f1f26;
+    ;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    gap: 12px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    width: 97%;
+
 }
 
+.info {
+    margin-top: 10px;
+    background: #1a1a22;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
 
 #divPersonagens {
     margin-top: 30px;
@@ -194,14 +211,6 @@ body {
     opacity: 0.8;
 }
 
-
-
-
-
-
-
-
-
 .barr {
 
     width: 100%;
@@ -268,12 +277,18 @@ body {
 /*tel*/
 @media(max-width:768px) {
     #topbarDir {
-        display: none;
+        display: flex;
+        align-items: center;
+
     }
 
     #topbar {
         flex-direction: column;
         gap: 10px;
+        background-color: #0f0f12;
+        height: 140px;
+
+        align-content: center;
     }
 
     #logotopo {
@@ -430,6 +445,7 @@ body {
 
 
 }
+
 /*cel menor ainda*/
 
 @media (max-width:375px) {
